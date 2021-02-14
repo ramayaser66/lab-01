@@ -1,0 +1,159 @@
+
+body{
+    width:100%;
+    height:100vh; 
+    margin:0;
+    padding: 0;
+    box-sizing:content-box; 
+}
+
+
+.container{
+    width:100%;
+    height:100%; 
+    text-align: center;
+    background-color: aqua;
+    
+
+}
+
+
+.one{
+width:100%;
+height:75px; 
+/* background-color: coral; */
+padding-top:62.5px; 
+} 
+
+
+.two{
+    width:100%;
+    height:150px;  
+    /* background-color:crimson;  */
+    padding-top: 75px;
+}
+
+.three{
+    width:100%;
+height:125px; 
+/* background-color:rgb(177, 220, 20);  */
+padding-top: 62.5px;
+}
+
+.four{
+    width:100%;
+height:125px; 
+/* background-color:rgb(11, 94, 97);  */
+padding-top: 62.5px;
+}
+
+.five{
+    width:100%;
+    margin:auto; 
+    /* background-color:rgb(80, 11, 97);  */
+}
+
+.five-a{
+    float: left;
+    width:50%;
+    height:250px; 
+    /* background-color:rgb(97, 11, 30); */
+    padding-top: 125px; 
+  
+}
+
+.five-b{
+    float: right;
+    width:50%;
+    height:250px; 
+    /* background-color:rgb(172, 16, 164);  */
+    padding-top: 125px;
+
+}
+
+
+.six{
+width:100%;
+height:250px;
+
+
+    /* background-color: darkgreen; */
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.six-a{
+    float: right;
+    width:50%;
+    height:250px;  
+    /* background-color:rgb(241, 238, 48);  */
+    padding-top: 125px;
+}
+
+.six-b{
+    float: left;
+    width:50%;
+    height:250px; 
+    /* background-color:rgb(12, 85, 30); */
+    padding-top: 125px;
+    
+}
+
+.seven{
+    width:100%;
+    height:80px;  
+    /* background-color:rgb(220, 100, 20);  */
+    padding-top: 40px;
+}
+
+
+@media(min-width:769px){
+    .container{
+        display: table flex;
+    }
+    .one{
+        width:100%;
+        height:100px; 
+        background-color: rgb(39, 19, 61);
+        padding-top:50px; 
+      
+        } 
+
+        .two{
+            width:20.8%;
+            height:600px; 
+            background-color: rgb(240, 63, 107);
+            padding-top:300px; 
+            /* display: inline-block;
+          */
+            
+        }
+
+        .three{
+            width:39.5%;
+            height:200px; 
+            background-color: rgb(88, 38, 51);
+            padding-top:100px;
+            /* display: inline-block; */
+            
+            
+            
+
+            }
+           
+
+        }
+
+        .four{
+            width:39.5%;
+            height:200px; 
+            background-color: rgb(94, 49, 49);
+            padding-top:100px;
+            /* display: inline-block;
+           */
+        }
+
+}
+
+
