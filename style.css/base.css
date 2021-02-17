@@ -1,169 +1,270 @@
-/* 
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-} */
-body{
-    width:100%;
-    /* height:100vh;  */
-      margin:0;
+/* * {
     padding: 0;
-    box-sizing:content-box; 
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+ body {
+    background-color: rgb(216, 200, 200);
+ 
 }
 
 
-.container{
+main{
+    background-color: teal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
     width:100%;
-    height:100%; 
-    text-align: center;
-    background-color: aqua;
-    
-
+ 
+    /* max-height: fit-content; */
+   
 }
 
-
-.one{
-width:100%;
-height:75px; 
-/* background-color: rgb(68, 0, 255); */
-background: #159957;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-padding-top:62.5px; 
-} 
-
-
-.two{
-    width:100%;
-    height:150px;  
-    background-color: rgb(229, 255, 0);
-    padding-top: 75px;
-}
-
-.three{
-    width:100%;
-height:125px; 
-background-color: rgb(255, 0, 149);
-padding-top: 62.5px;
-}
-
-.four{
-    width:100%;
-height:125px; 
-background-color: rgb(0, 255, 115);
-padding-top: 62.5px;
-}
-
-.five{
-    width:100%;
-    margin:auto; 
+.one {
+    width: 100%;
+    height: 75px;
     background-color: rgb(68, 0, 255);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
 }
 
-.five-a{
-    float: left;
-    width:50%;
-    height:250px; 
-    background-color:rgb(97, 11, 30);
-    padding-top: 125px; 
+.two {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(229, 255, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.three {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(255, 0, 149);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.four {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(0, 255, 115);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.five {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(19, 177, 66);
+    display: flex;
+}
+
+.five-a {
+    /* float: left; */
+    width: 50%;
+    height: 250px;
+    background-color: rgb(150, 12, 42);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.five-b {
+    /* float: right; */
+    width: 50%;
+    height: 250px;
+    background-color: rgb(172, 16, 164);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   
 }
 
-.five-b{
-    float: right;
-    width:50%;
-    height:250px; 
-    background-color:rgb(172, 16, 164); 
-    padding-top: 125px;
-
-}
-
-
-.six{
-width:100%;
-height:250px;
-
-
+.six {
+    width: 100%;
+    height: 250px;
     background-color: darkgreen;
     content: "";
     clear: both;
     display: table;
+    display: flex;
 }
 
-.six-a{
-    float: right;
-    width:50%;
-    height:250px;  
-    background-color:rgb(241, 238, 48); 
-    padding-top: 125px;
+.six-a {
+    /* float: right; */
+    width: 50%;
+    height: 250px;
+    background-color: rgb(241, 181, 15);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
 }
 
-.six-b{
-    float: left;
-    width:50%;
-    height:250px; 
-    background-color:rgb(12, 85, 30);
-    padding-top: 125px;
-    
+.six-b {
+    /* float: left; */
+    width: 50%;
+    height: 250px;
+    background-color: rgb(12, 150, 46);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
 }
 
-.seven{
-    width:100%;
-    height:80px;  
-    background-color:rgb(220, 100, 20); 
-    padding-top: 40px;
+.seven {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(131, 10, 101);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ 
 }
 
-
-@media(min-width:769px){
-    .container{
-        display: flex;
+@media(min-width:768px) {
+    .one {
+        background-color: coral;
     }
-    .one{
-        width:100%;
-        height:100px; 
-        background-color:red;
-        padding-top:50px; 
-
-
-      
-        } 
-
-        .two{
-            width:20.8%;
-            height:600px; 
-            background-color: rgb(240, 63, 107);
-            padding-top:300px; 
-            /* display: inline-block;
-          */
-            
-        }
-
-        .three{
-            width:39.5%;
-            height:200px; 
-            background-color: rgb(88, 38, 51);
-            padding-top:100px;
-            /* display: inline-block; */
-            
-            
-            
-
-            }
-           
-
-        }
-
-        .four{
-            width:39.5%;
-            height:200px; 
-            background-color: rgb(94, 49, 49);
-            padding-top:100px;
-            /* display: inline-block;
-           */
-        }
-
+    .two {
+        background-color: crimson;
+    }
+    .three {
+        background-color: rgb(177, 220, 20);
+    }
+    .four {
+        background-color: rgb(11, 94, 97);
+    }
+    .five-a {
+        background-color: rgb(204, 131, 147);
+    }
+    .five-b {
+        background-color: rgb(172, 16, 164);
+    }
+    .six-a {
+        background-color: rgb(241, 238, 48);
+    }
+    .six-b {
+        background-color: rgb(12, 85, 30);
+    }
+    .seven {
+        background-color: rgb(220, 100, 20);
+    }
 }
 
+@media(min-width:960px) {
+   
+
+    .one {
+        width: 100%;
+        height: 75px;
+        background-color: rgb(207, 205, 212);
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+
+       
+    }
+    
+    .container {
+        /* display: flex; */
+        width: 100%;
+        /* height:100%;  */
+        background-color: rgb(21, 190, 139);
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+      
+    }
+    .two {
+        width: 20.8%;
+        height: 600px;
+        background-color: rgb(240, 63, 107);
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+       
+    }
+    .sub-container {
+        width: 80%;
+       
+
+    }
+    .cd {
+        width: 100%;
+        display: flex;
+        background-color: seashell;
+    }
+    .three {
+        width: 50%;
+        height: 200px;
+        background-color: rgb(88, 38, 51);
+        display: flex;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        
+    }
+    .four {
+        width: 50%;
+        height: 200px;
+        background-color: rgb(146, 165, 199);
+        display: flex;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+    
+    }
+    .efhg {
+        display: flex;
+        width: 100%;
+    }
+  .five,.six{
+        width: 50%;
+        display: flex;
+
+    }
+    
+    .six-a, .six-b, .five-a, .five-b{
+        width: 50%;
+        height: 250px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+      
+    }
+    .seven{
+        height: 150px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+    }
+}
