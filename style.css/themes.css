@@ -1,0 +1,35 @@
+.one{
+    background-color: coral;
+}
+
+.two{
+    background-color:crimson;
+}
+
+.three{
+    background-color:rgb(177, 220, 20); 
+}
+
+.four{
+    background-color:rgb(11, 94, 97); 
+}
+
+.five-a{
+    background-color:rgb(97, 11, 30);
+}
+
+.five-b{
+    background-color:rgb(172, 16, 164); 
+}
+
+.six-a{
+    background-color:rgb(241, 238, 48); 
+}
+
+.six-b{
+    background-color:rgb(12, 85, 30);
+}
+
+.seven{
+    background-color:rgb(220, 100, 20); 
+}
